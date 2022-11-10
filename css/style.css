@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --orange: #FF9900;
+    --linear: #FFA434;
+    --text: #7D7987;
+    --line: #ECEFF2;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {    
+    text-align: center;    
+}
+
+main section h1 {
+    font-family: 'Inter', sans-serif;
+    margin-top: 72px;
+    margin-bottom: 32px;
+    font-size: 3.0625rem;
+    font-weight: 400;    
+}
+
+main section h1 span {
+    font-weight: 700;    
+    color: var(--orange);    
+}
+
+main section {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 72px;
+}
+
+main section #text-first {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--text);
+    margin-bottom: 25px;
+}
+
+main section #text-first .bold {
+    font-weight: 700;
+}
+
+main section #text-first .regular {
+    color: var(--orange);
+}
+
+main section #text-second {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--text);    
+}
+
+main section #text-second .bold {
+    font-weight: 700;
+}
+
+main section #text-second .regular {
+    color: var(--orange);
+}
+
+main #line {
+    width: 568px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid var(--line);        
+}
+
+main nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 8px;   
+    
+}
+
+main nav a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--orange);
+}
+
+main #balls {
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+}
